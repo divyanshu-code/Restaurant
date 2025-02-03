@@ -1,5 +1,6 @@
 import React from 'react'
-import { menu_list } from '../../assets/assets1'
+import { menu_list } from '../../assets/assets'
+
 
 const Menu = ({category , setmenu}) => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../../assets/assets'
 
+
 const AppDownload = () => {
   return (
     
@@ -10,7 +11,7 @@ const AppDownload = () => {
         <p className='mt-3'>FoodParadise App</p>
 
         <div className='play'>
-          <img src={assets.play_store } alt="error" />
+          <img src={assets.play_store} alt="error" />
           <img src={assets.app_store} alt="error" />
         </div>
     </div>
