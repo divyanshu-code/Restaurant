@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
+import { assets } from '../../assets/assets';
 
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
      <div className='upperfooter' id='footer'>
         <div className='footer'>
            <div className='leftfooter'>
-           <img src= "src/assets/Untitled design (2).png" alt="error" className='w-52 bg-gray-800 border-none'/>
+           <img src= {assets.photo} alt="error" className='w-52 bg-gray-800 border-none'/>
              <p>Welcome to Food Paradise, your ultimate destination for delectable and wholesome home-cooked meals in sector-62 , Noida .Our tiffin service caters to a diverse clientele , including , and those residing in PG accommodations.</p>
 
               <div className=' flex gap-3 mt-3 cursor-pointer'>

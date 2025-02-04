@@ -5,7 +5,7 @@ import { menu_list } from '../../assets/assets'
 const Menu = ({category , setmenu}) => {
   return (
     <>
-        <div className='flex flex-col gap-5 ml-37 mr-25 ' id='exploremenu'>
+        <div className='flex flex-col gap-5 ml-37 mr-25 mt-16 ' id='exploremenu'>
              
              <h1 className='text-4xl font-bold '>
                 Explore our menu

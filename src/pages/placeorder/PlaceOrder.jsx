@@ -24,7 +24,7 @@ const {total}=   useContext(StoreContent)
               <input type="text" placeholder='State' />
             </div>
             <div className='flex gap-2'>
-              <input type="text" placeholder='Zip' />
+              <input type="text" placeholder='Zip Code' />
               <input type="text" placeholder='Country' />
             </div>
           

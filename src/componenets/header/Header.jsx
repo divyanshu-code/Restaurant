@@ -3,6 +3,7 @@ import { IoIosSearch } from "react-icons/io";
 import { FaBasketShopping } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import { StoreContent } from '../../context/StoreContent';
+import { assets } from '../../assets/assets';
 
 const Header = ({login , cart}) => {
 
@@ -14,7 +15,7 @@ const Header = ({login , cart}) => {
    <>
   
       <div  className='flex items-center justify-between   mr-32 '>
-     <Link to='/'> <img src="src/assets/logo1.png" alt="error" className='w-52 ml-32'  /> </Link> 
+     <Link to='/'> <img src={assets.logo} alt="error" className='w-52 ml-32'  /> </Link> 
         
         <ul  className=' flex  gap-10 font-medium cursor-pointer'>
           <Link to='/' onClick={()=> setyes("Home")} className={yes==='Home'? "active" : ""}>Home</Link>

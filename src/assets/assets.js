@@ -30,6 +30,8 @@ import remove from './image2.png'
 import photo from './black.png'
 import app_store from './app_store.png'
 import play_store from './play_store.png'
+import logo from './logo1.png'
+import back from './main.png'
 
 export const assets = {
     
@@ -38,7 +40,9 @@ export const assets = {
      addicon,
      rating,
      remove,
-     photo
+     photo,
+     logo,
+     back
 }
 
 export const menu_list = [
