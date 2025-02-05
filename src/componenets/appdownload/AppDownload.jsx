@@ -3,17 +3,17 @@ import { assets } from '../../assets/assets';
 
 const AppDownload = () => {
   return (
-    <div className='flex flex-col items-center mt-10 text-center'>
+    <div className='flex flex-col items-center mt-10 text-center' id='app'>
       <p className='font-semibold text-2xl md:text-4xl mt-10'>For Better Experience Download</p>
       <p className='mt-2 text-xl md:text-2xl'>FoodParadise App</p>
 
       <div className='flex gap-4 mt-5'>
-        <img 
+        <img  class='playstore'
           src={assets.play_store} 
           alt='Play Store' 
-          className='w-32 md:w-40 lg:w-48' 
+          className='w-32 md:w-40 lg:w-48 ' 
         />
-        <img 
+        <img class='playstore'
           src={assets.app_store} 
           alt='App Store' 
           className='w-32 md:w-40 lg:w-48' 

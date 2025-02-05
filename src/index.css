@@ -3,6 +3,7 @@
 *{
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -10,192 +11,88 @@ a{
 }
 
 #button:hover{
-        
-        background-color: #fff4f2;    
-      
+    background-color: #fff4f2;    
 }
 
- .active {
-    
-     padding-bottom: 2px;
-     border-bottom: 2px solid #49557e;
+.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
 }
 
 .dot{
-     
     position: absolute;
     background-color: rgb(255, 38, 0);
     min-width: 10px;
     min-height: 10px;
     border-radius: 5px;
     top: 50px;
-    right: 258px;
-    
+    right: 17%;
+}
+
+.Active{
+        
+    padding: 3px;
+       border: 3px solid red;
+}
+#neo::-webkit-scrollbar{
+       display: none;
 }
 
 #head{
-
     height: 34vw;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 5%;
     position: relative;
-    width: 1260px;
+    max-width: 90%;
     border-radius: 10px;
     color: #fff4f2;
     padding: 15px;
-
 }
 
 .back{
-
-      height: 34vw;
-      border-radius: 10px;
-}
-
-#hlo{
-
-  
-     animation: fadein 3s;
-}
-
-@keyframes fadein{
-
-      0%{
-            opacity: 0;
-      }
-      100%{
-        opacity: 2;
-      }
+    height: 34vw;
+    border-radius: 10px;
 }
 
 #image{
-
     width: 7.5vw;
-    min-width: 150px;
+    min-width: 100px;
     cursor: pointer;
     border-radius: 50%;
     transition: 0.2s;
 }
 
-#neo::-webkit-scrollbar{
-     
-      display: none;
-}
-
-.Active{
-
-     border: 4px solid tomato;
-     padding: 2px;
-}
-
-.fooditem{
-        
-    box-shadow: 5px 5px 20px 5px #00000015;
-    transition: 0.3s;
-    animation: fadein 2s;
-    font-size: medium;
-    
-}
-
-.hero{
-
-    font-size: 28px;
-    margin-left: 19px;
-    margin-top: 10px;
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    border-radius: 50%;
-    background-color: aliceblue;
-    cursor: pointer;
-    
-}
-
-.hero1{
-      
-    width: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15px;    
-    cursor: pointer;  
-}
-.hero2{
-      
-    width: 30px;
-    margin-left: 19px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 8px;
-    cursor: pointer;
-}
-
-.villian{
-
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-      display: flex;
-      align-items: center;
-      background-color: aliceblue;
-      border-radius: 50px;
-      
-      gap: 5px;
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    padding: 20px;
 }
 
 .upperfooter{
-
-     display: flex;
-     flex-direction: column;
-     background-color: #323232;
-     align-items: center;
-     padding: 20px 8vw;
-     padding-top: 80px;
-     gap: 20px;
-     color: aliceblue;
-     margin-top: 100px;
-}
-
-.footer{
-      
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr ;
-    gap: 80px;
-
-}
-
-.leftfooter , .centerfooter , .rightfooter{
-      
     display: flex;
     flex-direction: column;
-    align-items: start;
+    background-color: #323232;
+    align-items: center;
+    padding: 20px 5vw;
+    padding-top: 60px;
     gap: 20px;
-}
-
-li{
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-#oo {
-    width: 100%;
-    height: 2px;
-    margin: 20px 0px;
-    background-color: rgb(97, 97, 97);
-    border: none;
+    color: aliceblue;
+    margin-top: 80px;
 }
 
 .play{
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-top: 20px;
     justify-content: center;
 }
 
 .play img{
-    width: 150px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -204,75 +101,49 @@ li{
     transform: scale(1.05);
 }
 
-.login{
-     display: grid;
-     width: 100%;
-     height: 100%;
-     background-color: #00000090;
-     position: absolute;
-     z-index: 1;
-    }
-
-    
- #form{
-      
-    animation: fadein  1s;
- }
-
- .uu{
-
-     display: flex;
-     align-items: start;
-     gap: 5px;
-     font-size: small;
-     color: #7e7d7d;
- }
-
- .ll{
-
-     font-size: small;
-     color: #7e7d7d;
-     margin-left: 13px;
-     
- }
-
- .line{
-     height: 2px;
-     background: color #9b9b9b;
-     margin-top: 20px;
-     margin-bottom: 10px;
- }
-
- .qq{
-
-     display: flex;
-     justify-content: space-between;
-     width: 500px;
-     color: gray;
-     margin: 5px;
- }
-
- .ww{
-
-     padding: 12px 0px;
-     width: max(15vw , 200px);
-     font-size: small;
-     font-weight: 700;
-     border: none;
-     background-color: red;
-     color: white;
-     margin-top: 20px;
-     border-radius: 5px;
-     cursor: pointer;
- }
+.ww{
+    padding: 12px 0px;
+    width: max(15vw , 150px);
+    font-size: small;
+    font-weight: 700;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .aa input{
-     margin-top: 20px;
-     border-radius: 4px;
-     padding: 5px;
-     border: 1px solid gray;
-     width: 100%;
-     font-size: 15px;
-     font-weight: 500;
-     outline-color: red;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    outline-color: red;
+}
+
+#hlo{
+
+     animation: fadein 3s;  
+}
+
+@keyframes fadein{
+     
+     0%{
+        opacity: 0;
+     }
+     100%{
+
+         opacity: 1;
+     }
+}
+ 
+.playstore:hover{
+
+      transform: scale(1.05);
+      transition: 0.5s;
+      cursor: pointer;
 }

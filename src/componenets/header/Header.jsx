@@ -7,7 +7,7 @@ import { assets } from '../../assets/assets';
 
 const Header = ({login , cart}) => {
 
-  const [yes, setyes] = useState('Menu')
+  const [yes, setyes] = useState('Home')
   const [menuOpen, setMenuOpen] = useState(false);
    const {total}= useContext(StoreContent);
 
