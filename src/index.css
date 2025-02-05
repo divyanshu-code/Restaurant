@@ -4,6 +4,7 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+
 a{
     color: inherit;
 }
@@ -27,16 +28,16 @@ a{
     min-width: 10px;
     min-height: 10px;
     border-radius: 5px;
-    top: 40px;
-    right: 255px;
+    top: 50px;
+    right: 258px;
     
 }
 
 #head{
 
     height: 34vw;
-    margin: 30px ;
-    margin-left: 150px;
+    margin-top: 10px;
+    margin-left: 100px;
     position: relative;
     width: 1260px;
     border-radius: 10px;
@@ -51,16 +52,9 @@ a{
       border-radius: 10px;
 }
 
-.hlo{
+#hlo{
 
-     position: absolute;
-     display: flex;
-     flex-direction: column;
-     max-width: 50%;
-     align-items: start;
-     gap: 40px;
-     bottom: 30px;
-     left: 6vw;
+  
      animation: fadein 3s;
 }
 
@@ -168,6 +162,7 @@ a{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr ;
     gap: 80px;
+
 }
 
 .leftfooter , .centerfooter , .rightfooter{

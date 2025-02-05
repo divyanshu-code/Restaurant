@@ -49,12 +49,6 @@ const StoreContentProvider = (props) => {
             setitem,
             total
       }
-
-      useEffect(() => {
-       
-            console.log(item);
-            
-      }, [item])
       
 
   return (

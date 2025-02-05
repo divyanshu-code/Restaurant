@@ -1,22 +1,26 @@
-import React from 'react'
-import { assets } from '../../assets/assets'
-
+import React from 'react';
+import { assets } from '../../assets/assets';
 
 const AppDownload = () => {
   return (
-    
-    <>
-    <div className='align-center mt-30  font-semibold text-4xl text-center' id='app'>
-        <p >For Better Experience Download </p> 
-        <p className='mt-3'>FoodParadise App</p>
+    <div className='flex flex-col items-center mt-10 text-center'>
+      <p className='font-semibold text-2xl md:text-4xl mt-10'>For Better Experience Download</p>
+      <p className='mt-2 text-xl md:text-2xl'>FoodParadise App</p>
 
-        <div className='play'>
-          <img src={assets.play_store} alt="error" />
-          <img src={assets.app_store} alt="error" />
-        </div>
+      <div className='flex gap-4 mt-5'>
+        <img 
+          src={assets.play_store} 
+          alt='Play Store' 
+          className='w-32 md:w-40 lg:w-48' 
+        />
+        <img 
+          src={assets.app_store} 
+          alt='App Store' 
+          className='w-32 md:w-40 lg:w-48' 
+        />
+      </div>
     </div>
-    </>
-  )
-}
+  );
+};
 
-export default AppDownload
+export default AppDownload;
