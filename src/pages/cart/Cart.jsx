@@ -17,7 +17,7 @@ const Cart = () => {
           <p>Total</p>
           <p>Remove</p>
         </div>
-        <hr className='line' />
+        <hr className='mt-5' />
         {food_list.map((items, index) => {
           if (item[items._id] > 0) {
             return (
@@ -60,7 +60,7 @@ const Cart = () => {
           <p className='text-gray-500 font-bold text-sm md:text-base'>If you have a promo code, enter it here:</p>
           <div className='mt-3 flex items-center rounded bg-gray-200 p-2'>
             <input className='flex-1 outline-none p-2 text-sm rounded bg-transparent' type='text' placeholder='Promo code' />
-            <button className='bg-black text-white p-2 text-xs md:text-sm rounded ml-2'>Submit</button>
+            <button className='bg-black text-white p-2 text-xs md:text-sm rounded '>Submit</button>
           </div>
         </div>
       </div>
