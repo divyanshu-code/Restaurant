@@ -7,8 +7,8 @@ const FoodItem = ({ id, name, price, description, image }) => {
   const { item, addtocart, removefromcart } = useContext(StoreContent);
 
   return (
-    <div className='fooditem bg-white shadow-lg rounded-lg overflow-hidden max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg'>
-      <div className='relative'>
+    <div className='fooditem bg-white shadow-lg rounded-lg overflow-hidden max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg' id='check'>
+      <div className='relative' >
         <img className='w-full h-48 object-cover rounded-t-lg' src={image} alt='error' />
         {!item[id] ? (
           <IoIosAdd className='absolute text-4xl bg-white bottom-2 right-2 p-2 rounded-full  cursor-pointer' onClick={() => addtocart(id)} />

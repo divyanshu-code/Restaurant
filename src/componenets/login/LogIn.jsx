@@ -4,7 +4,7 @@ import { RxCross2 } from 'react-icons/rx';
 const LogIn = ({ login }) => {
   const [state, setState] = useState('Login');
   return (
-    <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4'>
+    <div className='fixed inset-0 flex items-center justify-center  p-4 bg-opacity-50 z-50' id='log'>
       <form className='w-full max-w-md flex flex-col gap-5 bg-white p-6 rounded-xl shadow-2xl'>
         <div className='flex justify-between text-black font-bold text-lg'>
           <h2>{state}</h2>

@@ -141,9 +141,29 @@ a{
      }
 }
  
-.playstore:hover{
+.playstore{
+
+       display: flex;
+       gap: 10px;
+       margin-top: 10px;
+}
+
+.playstore img:hover{
 
       transform: scale(1.05);
-      transition: 0.5s;
       cursor: pointer;
+      transition: 0.5s;
+}
+
+#check:hover{
+
+     transform: scale(1.05);
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+#log{
+
+    background-color: #00000090;
+    
 }
