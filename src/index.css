@@ -9,6 +9,11 @@
 a{
     color: inherit;
 }
+#button{
+   
+    cursor: pointer;
+      
+}
 
 #button:hover{
     background-color: #fff4f2;    

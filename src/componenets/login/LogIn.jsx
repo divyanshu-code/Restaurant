@@ -21,7 +21,7 @@ const LogIn = ({ login }) => {
           {state === 'Sign Up' ? 'Create account' : 'Login'}
         </button>
         <div className='flex items-start gap-2 text-xs'>
-          <input type='checkbox' required className='mt-1' />
+          <input type='checkbox' required className='mt-0.5' />
           <p className='font-semibold'>By continuing, I agree to the Terms of Use & Privacy Policy.</p>
         </div>
         <div className='text-center'>
