@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='bg-gray-800 text-white p-6 mt-12' id='footer'>
       <div className='flex flex-col lg:flex-row justify-between gap-10'>
         <div className='lg:w-1/3 text-center lg:text-left  p-10'>
-          <img src={assets.photo} alt='error' className='w-40 mx-auto lg:mx-0 bg-gray-800 border-none' />
+         <a href="#home"> <img src={assets.photo} alt='error' className='w-40 mx-auto lg:mx-0 bg-gray-800 border-none cursor-pointer' /></a> 
           <p className='mt-4 text-sm'>
             Welcome to Food Paradise, your ultimate destination for delectable and wholesome home-cooked meals in Sector-62, Noida. Our tiffin service caters to a diverse clientele, including those residing in PG accommodations.
           </p>

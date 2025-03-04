@@ -1,5 +1,6 @@
 import React from 'react';
 import { assets } from '../../assets/assets';
+import { Link } from 'react-router-dom';
 
 const Head = () => {
   return (
@@ -10,7 +11,13 @@ const Head = () => {
         <p className='mt-10 ml-12 text-sm sm:text-base md:text-lg font-semibold '>
           Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.
         </p>
-        <button className='mt-6 ml-12 border px-6 py-3 rounded-3xl bg-white text-black border-white text-sm sm:text-base'>View Menu</button>
+
+        <a href="#exploremenu">
+
+        <button className='mt-6 ml-12 border px-6 py-3 rounded-3xl bg-white text-black border-white text-sm sm:text-base cursor-pointer'>View Menu</button>
+
+        </a>
+        
       </div>
     </div>
   );

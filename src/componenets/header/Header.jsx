@@ -15,7 +15,7 @@ const Header = ({login , cart}) => {
    <>
   
       <div  className='flex  w-full justify-between px-5 py-3 md:px-10 lg:px-32  bg-white shadow-md mr-14'>
-     <Link to='/'> <img src={assets.logo} alt="error" className='w-40 md:w-52'  /> </Link> 
+     <Link to='/'> <img src={assets.logo} alt="error" className='w-40 md:w-52' id='home' /> </Link> 
 
      <button className='md:hidden' onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
